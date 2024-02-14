@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "SimpleWebCrawler"
+description = "A simple web crawler."
+version = "0.0.1"
+authors = ["hp310780 <@hp310780>"]
+
+[tool.poetry.dependencies]
+bs4 = "^0.0.2"
+python = "^3.9"
+requests = "^2.31.0"
+black = "^24.1.1"
+pytest = "^8.0.0"
+requests-mock = "^1.11.0"
+coverage = "^7.4.1"
+pytest-cov = "^4.1.0"
